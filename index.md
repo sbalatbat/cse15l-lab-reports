@@ -1,6 +1,6 @@
 # Hello World!
-Welcome to my GitHub.
-I am **Sarah Claire S. Balatbat**, a first-year CS Major in Sixth College, UCSD.
+Welcome to my CSE 15L page! I am **Sarah Claire S. Balatbat**, a first-year CS Major in Sixth College, UCSD.
+This page documents my bi-weekly lab reports for my CSE 15L Winter 2023 course in UCSD.
 
 ## Table of Contents
 * Week 1 Lab Report
