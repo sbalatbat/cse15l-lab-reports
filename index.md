@@ -1,8 +1,12 @@
 # Hello World!
-Welcome to my GitHub account.
+Welcome to my GitHub.
 I am **Sarah Claire S. Balatbat**, a first-year CS Major in Sixth College, UCSD.
 
-I am currently in my first lab in my college career, and it is going well so far.
-My groupmates are fun to talk to and have been cooperative.
+## Table of Contents
+* Week 1 Lab Report
+* Week 3 Lab Report
+* Week 5 Lab Report
+* Week 7 Lab Report
 
-I hope to learn a lot in this class.
+
+*Links to be added.*
