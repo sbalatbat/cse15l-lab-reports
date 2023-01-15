@@ -21,7 +21,7 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 2. Follow the instructions to download and install it on your computer.  There are versions for the major operating systems, like OSX for Macs and Windows for PCs.
 
-![VS Code Download Screen]([Screenshot (339).png](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(339).png))
+![VS Code Download Screen](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(339).png)
 
 3. You should be able to open a window that looks like this (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
 
