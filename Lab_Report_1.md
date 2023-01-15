@@ -15,7 +15,7 @@ Note that although the password reset was supposed to only change the password f
 
 ### Installing VSCode
 1. Go to the Visual Studio Code website https://code.visualstudio.com/
-![VS Code Website Home](/assets/images/Screenshot (338).png)
+![VS Code Website Home](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(338).png)
 
 2. Follow the instructions to download and install it on your computer.  There are versions for the major operating systems, like OSX for Macs and Windows for PCs.
 ![VS Code Download Screen](Screenshot (339).png)
