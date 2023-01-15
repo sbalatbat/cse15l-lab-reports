@@ -51,11 +51,11 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
    ```$ ssh cs15lwi23zz@ieng6.ucsd.edu```
 
-   To clarify, that is one, five, and lowercase L after cs, and `$` is there for command writing convention, aka you don't have to type it into the terminal. You will be prompted "Are you sure you want to continue connecting?" after pressing enter.
+   To clarify, that is one, five, and lowercase L after cs, and `$` is there for command writing convention, aka you don't have to type it into the terminal. You will be prompted `Are you sure you want to continue connecting?` after pressing enter.
 
 4. Type `yes` and press enter, then give your password into the terminal. Your password will not appear in the terminal as you type. The terminal should output something like this:
 
-![Successful Login Output](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(After%20Command).png)
+   ![Successful Login Output](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(After%20Command).png)
 
 5. You are now connected to a computer in the CSE basement, which runs any command you run. Your computer is called the *client* and the one in the basement is the *server* based on how you are connected.
 
