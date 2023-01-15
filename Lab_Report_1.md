@@ -15,10 +15,10 @@ Note that although the password reset was supposed to only change the password f
 
 ### Installing VSCode
 1. Go to the Visual Studio Code website https://code.visualstudio.com/
-![alt text](Screenshot (338).png "VS Code Website Home")
+![VS Code Website Home](Screenshot (338).png)
 
 2. Follow the instructions to download and install it on your computer.  There are versions for the major operating systems, like OSX for Macs and Windows for PCs.
-![alt text](Screenshot (339).png "VS Code Download Screen")
+![VS Code Download Screen](Screenshot (339).png)
 
 3. You should be able to open a window that looks like this (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
 `screenshot (340)`
@@ -36,9 +36,13 @@ Note that although the password reset was supposed to only change the password f
    * Select Git Bash from the options. `Screenshot 2023-01-14 184946`
    * Click on the + icon in the terminal window. This will create a new bash terminal, as you can see on the sidebar. `Screenshot 2023-01-14 185714`
 3. Type in the following command into the terminal, but replace `zz` with the letters in your course-specific account.
+
 ```$ ssh cs15lwi23zz@ieng6.ucsd.edu```
+
 To clarify, that is one, five, and lowercase L after cs, and `$` is there for command writing convention, aka you don't have to type it into the terminal. You will be prompted "Are you sure you want to continue connecting?" after pressing enter.
+
 4. Type `yes` and press enter, then give your password into the terminal. Your password will not appear in the terminal as you type. The terminal should output something like this: `Screenshot (After Command)`
+
 5. You are now connected to a computer in the CSE basement, which runs any command you run. Your computer is called the *client* and the one in the basement is the *server* based on how you are connected.
 
 ### Trying Some Commands
@@ -52,7 +56,9 @@ Run some commands on **your computer** and the **remote computer** (if you have 
    * `ls -a`
    * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
    * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+
 Experiment and have fun!
+
 Some examples of what you may get:
 `Screenshot (commands 1)`
 `Screenshot (commands 2)`
