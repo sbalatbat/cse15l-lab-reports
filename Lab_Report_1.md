@@ -3,7 +3,7 @@
 ## How to Log Into a Course-Specific Account on `ieng6`
 
 ### Installing VSCode
-1: Go to the Visual Studio Code website https://code.visualstudio.com/
+1. Go to the Visual Studio Code website https://code.visualstudio.com/
 
 2. Follow the instructions to download and install it on your computer.  There are versions for the major operating systems, like OSX for Macs and Windows for PCs.
 3. 
