@@ -31,7 +31,8 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 ### Remotely Connecting
 
-1. If you're on Windows, the first thing you need to do is install `git` for Windows. Follow the steps for installation on the linked site. [Git for Windows](https://gitforwindows.org/)
+1. If you're on Windows, the first thing you need to do is install `git` for Windows. Follow the steps for installation on the linked site.
+   [Git for Windows](https://gitforwindows.org/)
 
 2. Next, set the default terminal to use the newly-installed `git bash` in VS Code.
    * Open VS Code and press Ctrl + Shift + \` to open the terminal, or click Terminal on the menu bar and click New Terminal.
