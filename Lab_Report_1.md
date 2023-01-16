@@ -5,9 +5,9 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 ### Your CSE15L Account
 
-1. Look up your course-specific account for CSE15L on the following link https://sdacs.ucsd.edu/~icc/index.php
+1. Find your course-specific account for CSE15L on the following link https://sdacs.ucsd.edu/~icc/index.php
 
-2. Next, reset your password by following this the tutorial:
+2. Next, reset your password by following this tutorial:
    [How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
 3. Do the rest of the steps while waiting for the new password to take effect.
@@ -19,11 +19,11 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 ![VS Code Website Home](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(338).png)
 
-2. Follow the instructions to download and install it on your computer.  There are versions for the major operating systems, like OSX for Macs and Windows for PCs.
+2. Follow the instructions to download and install it on your computer.
 
 ![VS Code Download Screen](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(339).png)
 
-3. You should be able to open a window that looks like this (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
+3. You should be able to open a window that looks like this after installation (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
 
 ![VS Code Home](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(340).png)
 
