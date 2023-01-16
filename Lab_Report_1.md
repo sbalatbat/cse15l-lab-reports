@@ -21,11 +21,11 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 2. Follow the instructions to download and install it on your computer.
 
-![VS Code Download Screen](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(339).png)
+![VS Code Download Screen](./Screenshot%20(339).png)
 
 3. You should be able to open a window that looks like this after installation (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
 
-![VS Code Home](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(340).png)
+![VS Code Home](./Screenshot%20(340).png)
 
 4. Now you're ready for the next part :)
 
@@ -36,17 +36,17 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 2. Next, set the default terminal to use the newly-installed `git bash` in VS Code.
    * Open VS Code and press Ctrl + Shift + \` to open the terminal, or click Terminal on the menu bar and click New Terminal.
      
-     ![Open New Terminal](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(341).png)
+     ![Open New Terminal](./Screenshot%20(341).png)
    * Open the command palette using Ctrl + Shift + P
    * Type "Select Default Profile" and click the option that shows up.
      
-     ![Select Default Profile](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%202023-01-14%20183700.jpg)
+     ![Select Default Profile](./Screenshot%202023-01-14%20183700.jpg)
    * Select Git Bash from the options.
    
-     ![Select Git Bash](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%202023-01-14%20184946.jpg)
+     ![Select Git Bash](./Screenshot%202023-01-14%20184946.jpg)
    * Click on the + icon in the terminal window. This will create a new bash terminal, as you can see on the sidebar.
      
-     ![New Bash Terminal](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%202023-01-14%20185714.jpg)
+     ![New Bash Terminal](./Screenshot%202023-01-14%20185714.jpg)
 3. Type in the following command into the terminal, but replace `zz` with the letters in your course-specific account.
 
    ```$ ssh cs15lwi23zz@ieng6.ucsd.edu```
@@ -55,7 +55,7 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 4. Type `yes` and press enter, then give your password into the terminal. Your password will not appear in the terminal as you type. The terminal should output something like this:
 
-   ![Successful Login Output](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(After%20Command).png)
+   ![Successful Login Output](./Screenshot%20(After%20Command).png)
 
 5. You are now connected to a computer in the CSE basement, which runs any command you run. Your computer is called the *client* and the one in the basement is the *server* based on how you are connected.
 
@@ -75,9 +75,9 @@ Experiment and have fun!
 
 Some examples of what you may get:
 
-![Example 1](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(commands%201).png)
-![Example 2](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(commands%202).png)
-![Example 3](https://github.com/sbalatbat/cse15l-lab-reports/blob/main/Screenshot%20(commands%203).png)
+![Example 1](./Screenshot%20(commands%201).png)
+![Example 2](./Screenshot%20(commands%202).png)
+![Example 3](./Screenshot%20(commands%203).png)
 
 ---
 Congrats! You can now log in to your course-specific account on your computer. To log out of the remote server in your terminal, you can use:
