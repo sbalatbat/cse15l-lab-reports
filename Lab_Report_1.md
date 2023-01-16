@@ -5,7 +5,7 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 
 ### Your CSE15L Account
 
-1. Find your course-specific account for CSE15L on the following link https://sdacs.ucsd.edu/~icc/index.php
+1. Find your course-specific account for CSE15L on this [link](https://sdacs.ucsd.edu/~icc/index.php)
 
 2. Next, reset your password by following this tutorial:
    [How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
@@ -15,7 +15,7 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
    Note that although the password reset was supposed to only change the password for the course-specific account, it's likely that the password will get changed globally on the system (as it happened to me and my labmates). This means that the new password will be used for all associated UCSD accounts. I'm not sure what fix is there aside from simply changing it back later.
 
 ### Installing VSCode
-1. Go to the Visual Studio Code website https://code.visualstudio.com/
+1. Go to the [Visual Studio Code website](https://code.visualstudio.com/)
 
    ![VS Code Website Home](./Screenshot%20(338).png)
 
