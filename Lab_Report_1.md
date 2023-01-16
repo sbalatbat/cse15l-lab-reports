@@ -17,15 +17,15 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 ### Installing VSCode
 1. Go to the Visual Studio Code website https://code.visualstudio.com/
 
-![VS Code Website Home](./Screenshot%20(338).png)
+   ![VS Code Website Home](./Screenshot%20(338).png)
 
 2. Follow the instructions to download and install it on your computer.
 
-![VS Code Download Screen](./Screenshot%20(339).png)
+   ![VS Code Download Screen](./Screenshot%20(339).png)
 
 3. You should be able to open a window that looks like this after installation (with colors or menu bars possibly looking different depending on your system and settings). I already had VS Code installed so I simply opened the program.
 
-![VS Code Home](./Screenshot%20(340).png)
+   ![VS Code Home](./Screenshot%20(340).png)
 
 4. Now you're ready for the next part :)
 
