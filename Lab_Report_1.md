@@ -17,7 +17,7 @@ This tutorial is done on Windows so there may be minor differences, such as keyb
 ### Installing VSCode
 1. Go to the [Visual Studio Code website](https://code.visualstudio.com/)
 
-   ![VS Code Website Home](./Screenshot%20(338).png)
+   ![VS Code Website Home](./Lab_Report_1_files/Screenshot%20(338).png)
 
 2. Follow the instructions to download and install it on your computer.
 
