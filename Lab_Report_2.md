@@ -39,16 +39,20 @@ Class field changes:
 ## Part 2: Bugs
 
 Failure-inducing input
+
 ```JUnit Test and associated code```
 
 Non-failure-inducing input
+
 ```JUnit test and associated code```
 
 Symptom
 _screenshot: JUnit running w at least 2 above inputs_
 
 Bug
+
 ```Before-fix code```
+
 ```After-fix code```
 
 **How the fix addressed the issue**
