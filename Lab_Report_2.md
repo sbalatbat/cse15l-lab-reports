@@ -12,7 +12,7 @@ Methods called:
 * `handleRequest(URI url)`: takes a new URL object, which is in this case, "http://localhost:2048/add-message?s=Hello"
    * `url.getPath().contains("/add-message")`: checks if the URL path has the "/add-message" request, which is true in this case
       * `url.getQuery().split("=")`: takes the query of the path (which is "s=Hello") and splits it into a String array by the "=" character, containing "s" in the `[0]` element of the String array and "Hello" in the `[1]` element
-      * `param[0].equals("s")`: checks if the first parameter is indeed "s", and then concatenates the `[1]` element with the `output` field, whose value was previously an empty string
+      * `param[0].equals("s")`: checks if the first parameter is indeed "s" - results in a true evaluation for the if statement it's contained in, thus resulting in concatenating the `[1]` element to the `output` field, whose value was previously an empty string
 
 The resulting `output` field is returned as a result of the request, as shown by the screenshot containing a single "Hello"
 
@@ -33,7 +33,7 @@ Methods called:
 * `handleRequest(URI url)`: takes a new URL object, which is in this case, "http://localhost:2048/add-message?s=%20World!" - note that the "%20" characters represent a space character that was autoreplaced by Chrome, I tried to _incorrectly_ manually type it as "%" and this resulted in a 404 error outside of the StringServer program
    * `url.getPath().contains("/add-message")`: checks if the URL path has the "/add-message" request, which is true in this case
       * `url.getQuery().split("=")`: takes the query of the path (which is "s= World!") and splits it into a String array by the "=" character, containing "s" in the `[0]` element of the String array and " World!" in the `[1]` element
-      * `param[0].equals("s")`: checks if the first parameter is indeed "s", and then concatenates the `[1]` element with the `output` field, whose value was "Hello" from the previous method call
+      * `param[0].equals("s")`: checks if the first parameter is indeed "s" - results in a true evaluation for the if statement it's contained in, thus result in concatenating the `[1]` element to the `output` field, whose value was "Hello" from the previous method call
 
 The resulting `output` field is returned as a result of the request, as shown by the screenshot containing a single "Hello World!"
 
