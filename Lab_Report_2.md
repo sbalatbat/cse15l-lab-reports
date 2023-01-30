@@ -9,7 +9,6 @@
  * PID: A17415096
  * Sources used: Lab 2 NumberServer.java file
  * 
- * 
  * This file provides functionality for a web server that handles requests
  * to modify a String. It comes with the Handler class which implements
  * URLHandler, a StringServer class which runs the webserver, and imported
@@ -124,8 +123,6 @@ public void testReverseInPlace() {
 **Symptom**
 
 ![JUnit Running With Above Inputs](./Lab_Report_2_files/Screenshot%202023-01-30%20152007.jpg)
-
-
 
 **Bug**
 
