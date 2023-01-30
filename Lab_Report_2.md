@@ -4,6 +4,8 @@
 
 ![StringServer Code](./Lab_Report_2_files/Screenshot%20(357).png)
 
+## Request 1: /add-message?s=Hello
+
 ![/add-message 1](./Lab_Report_2_files/Screenshot%20(354).png)
 
 Methods called:
@@ -21,6 +23,8 @@ Relevant method arguments and class fields:
 
 Class field changes:
 * `output`: "" -> "Hello" - Hello was concatenated to the original value of `output`, which was an empty string ""
+
+## Request 2: /add-message?s= World!
 
 ![/add-message 2](./Lab_Report_2_files/Screenshot%20(355).png)
 
