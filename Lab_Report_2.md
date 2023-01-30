@@ -2,7 +2,7 @@
 
 ## Part 1: String Server
 
-![StringServer Code](./Lab_Report_2_files/Screenshot%20(356).png)
+![StringServer Code](./Lab_Report_2_files/Screenshot%20(357).png)
 
 ![/add-message 1](./Lab_Report_2_files/Screenshot%20(354).png)
 
