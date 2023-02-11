@@ -41,7 +41,6 @@ travel_guides/berlitz2
 
 Sources
 * ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)
-* Week 4 Wednesday Lecture Handout - `find` definition
 
 ### `-name`
 
@@ -122,7 +121,7 @@ Sources
 
 ### `-delete`
 
-`delete` deletes files *permanently*. Recommended to use find without `-delete` first to check which files are going to be deleted. `STOPPED HERE: tired`
+`delete` deletes files *permanently*. Recommended to use `find` without `-delete` first to check which files are going to be deleted. `STOPPED HERE: tired`
 
 Example 1
 ```
