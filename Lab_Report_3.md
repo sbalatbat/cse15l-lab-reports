@@ -122,19 +122,33 @@ Sources
 
 ### `-delete`
 
-`delete` deletes files *permanently*. Recommended to use `find` without `-delete` first to check which files are going to be deleted. Makes deleting stuff more convenient as you can do it from the terminal. `STOPPED HERE: tired`
+`delete` deletes files *permanently*. It automatically turns on the `-depth` option, which processes the directory's contents before itself (I don't fully understand it yet). Recommended to use `find` without `-delete` and explicitly with `-depth` first to check which files are going to be deleted. Makes deleting stuff more convenient as you can do it from the terminal. 
 
 Example 1
 ```
-$ find -option4 command
-output
+$ # working directory is written-2/travel_guides/berlitz1
+$ find -depth -name "*Japan.txt"
+./HistoryJapan.txt
+./IntroJapan.txt
+./WhatToJapan.txt
+./WhereToJapan.txt
+$ find -name "*Japan.txt" -delete
+$ # returned true so removal succeeded, otherwise an error message is issued
+$ find -depth -name "*Japan.txt"
+$ # no output because files are deleted
 ```
 
 Example 2
 ```
-$ find -option4 command
-output
+$ # working directory is written_2/non-fiction/OUP/Abernathy
+$ ls
+ch1.txt  ch14.txt  ch15.txt  ch2.txt  ch3.txt  ch6.txt  ch7.txt  ch8.txt  ch9.txt
+$ find -type f -delete
+$ # returned true so removal succeeded
+$ ls
+$ # no output because directory is now empty
 ```
 
 Sources
 * ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)
+* [GNU Findutils Manual - 3.4 Delete Files](https://www.gnu.org/software/findutils/manual/html_mono/find.html#Delete-Files)
