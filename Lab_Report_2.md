@@ -56,7 +56,7 @@ class StringServer {
 
 ## Request 1: /add-message?s=Hello
 
-![/add-message 1](./Lab_Report_2_files/Screenshot%20(354).png)
+![/add-message 1](./Lab_Report_2_files/Screenshot%20(364).png)
 
 Methods called:
 * `handleRequest(URI url)`: takes a new URL object, which is in this case, "http://localhost:2048/add-message?s=Hello"
