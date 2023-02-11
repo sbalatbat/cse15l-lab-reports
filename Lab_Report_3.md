@@ -13,7 +13,7 @@ __Command-line options__
 
 ### `-type`
 
-`-type` filters the files and folders found by `find` by the given argument, such as `f` for files and `d` for directories.
+`-type` filters the files and folders found by `find` by the given argument, such as `f` for files and `d` for directories. This is useful for filtering out what you're looking for by what kind of item they are, such as file, directory, character (unbuffered) special, or socket (not sure what those last two are yet).
 
 Example 1
 ```
@@ -41,10 +41,11 @@ travel_guides/berlitz2
 
 Sources
 * ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)
+* [GNU Manual: find - type](https://www.gnu.org/software/findutils/manual/html_mono/find.html#Type)
 
 ### `-name`
 
-`-name` filters the files and folders found by `find` by the given glob (pattern) argument, such as `"*.txt"` or `"*Japan.txt"`.
+`-name` filters the files and folders found by `find` by the given glob (pattern) argument, such as `"*.txt"` or `"*Japan.txt"`. This is useful for finding multiple files that have similarly formatted names.
 
 Example 1
 ```
@@ -76,7 +77,7 @@ Sources
 
 ### `-print`
 
-`-print` is an action which, as you would expect, prints out the filenames. It is the default action of `find`.
+`-print` is an action which, as you would expect, prints out the filenames. It is the default action of `find`, which is really useful for actually seeing what you looked for.
 
 Example 1
 ```
@@ -121,7 +122,7 @@ Sources
 
 ### `-delete`
 
-`delete` deletes files *permanently*. Recommended to use `find` without `-delete` first to check which files are going to be deleted. `STOPPED HERE: tired`
+`delete` deletes files *permanently*. Recommended to use `find` without `-delete` first to check which files are going to be deleted. Makes deleting stuff more convenient as you can do it from the terminal. `STOPPED HERE: tired`
 
 Example 1
 ```
