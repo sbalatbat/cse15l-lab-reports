@@ -28,7 +28,7 @@ class Handler implements URLHandler {
         else if (url.getPath().contains("/add-message")) {
             String[] param = url.getQuery().split("=");
             if (param[0].equals("s")) {
-                output = output + param[1];
+                output = output + "\n" +  param[1];
                 return output;
             }
         }
@@ -77,7 +77,7 @@ Class field changes:
 
 ## Request 2: /add-message?s= World!
 
-![/add-message 2](./Lab_Report_2_files/Screenshot%20(355).png)
+![/add-message 2](./Lab_Report_2_files/Screenshot%20(362).png)
 
 Methods called:
 * `handleRequest(URI url)`: takes a new URL object, which is in this case, "http://localhost:2048/add-message?s=%20World!" - note that the "%20" characters represent a space character that was autoreplaced by Chrome, I tried to _incorrectly_ manually type it as "%" and this resulted in a 404 error outside of the StringServer program
@@ -94,7 +94,7 @@ Relevant method arguments and class fields:
    * `output`: "Hello"
 
 Class field changes:
-* `output`: "Hello" -> "Hello World!" - " World!" was concatenated to the previous value of output, wich was "Hello" from the last handled request
+* `output`: "Hello" -> "Hello\n World!" - "\n World!" was concatenated to the previous value of output, wich was "Hello" from the last handled request
 
 # Part 2: Bugs
 
@@ -138,18 +138,18 @@ static void reverseInPlace(int[] arr) {
 ```java
 // After fix
 static void reverseInPlace(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for (int i = 0, j = arr.length-1; j >= 0; i++, j--) {
-      newArray[i] = arr[j];
+    int temp, n;
+    n = arr.length;
+    for(int i = 0; i < n/2; i++) {
+      temp = arr[i];
+      arr[i] = arr[n - i -1];
+      arr[n - i -1] = temp;
     }
-    for (int i = 0; i < arr.length; i++) {
-      arr[i] = newArray[i];
-    } 
   }
 ```
 
 **How the fix addressed the issue**
-* The original code previously replaced the elements without preserving the original elements, thus causing it to put the wrong elements in the later indices. The fix addressed the issue by copying the elements in reverse order into another array, then copying each element back to the original array, therefore getting rid of the overwriting problem.
+* The original code previously replaced the elements without preserving the original elements, thus causing it to put the wrong elements in the later indices. The fix addressed the issue by swapping the matching start and end elements using a temporary variable to hold old values that would otherwise be overwritten, therefore getting rid of the overwriting problem. I wasn't sure how to solve this during lab so I looked up ways on how to do it without using a new array, and found help in geeksforgeeks.
 
 ## Part 3: What I Learned
 
