@@ -8,8 +8,8 @@
 __Command-line options__
 * `-type`
 * `-name`
+* `-print`
 * `-delete`
-* `-exec`
 
 ### `-type`
 
@@ -45,48 +45,96 @@ Sources
 
 ### `-name`
 
-Explanation
+`-name` filters the files and folders found by `find` by the given glob (pattern) argument, such as `"*.txt"` or `"*Japan.txt"`.
 
 Example 1
-```$ find -option2 command
-output
+```
+$ # working directory is written_2/non-fiction/OUP/Kauffman
+$ find -name "*.txt"
+./ch1.txt
+./ch10.txt
+./ch3.txt
+./ch4.txt
+./ch5.txt
+./ch6.txt
+./ch7.txt
+./ch8.txt
+./ch9.txt
 ```
 
 Example 2
-```$ find -option2 command
-output
+```
+$ # working directory is written_2/travel_guides/berlitz1
+$ find -name "*Japan.txt"
+./HistoryJapan.txt
+./IntroJapan.txt
+./WhatToJapan.txt
+./WhereToJapan.txt
 ```
 
-Source: [link2]()
+Sources
+* ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)
+
+### `-print`
+
+`-print` is an action which, as you would expect, prints out the filenames. It is the default action of `find`.
+
+Example 1
+```
+$ # working directory is written_2/travel_guides/berlitz1
+$ find -name "*Madrid.txt" -print
+./HandRMadrid.txt
+./HistoryMadrid.txt
+./IntroMadrid.txt
+./WhereToMadrid.txt
+```
+
+Example 2
+```
+$ # working directory is written_2/travel_guides/berlitz1
+$ find -name "History*.txt" -print
+./HistoryDublin.txt
+./HistoryEdinburgh.txt
+./HistoryEgypt.txt
+./HistoryFrance.txt
+./HistoryFWI.txt
+./HistoryGreek.txt
+./HistoryHawaii.txt
+./HistoryHongKong.txt
+./HistoryIbiza.txt
+./HistoryIndia.txt
+./HistoryIsrael.txt
+./HistoryIstanbul.txt
+./HistoryItaly.txt
+./HistoryJamaica.txt
+./HistoryJapan.txt
+./HistoryJerusalem.txt
+./HistoryLakeDistrict.txt
+./HistoryLasVegas.txt
+./HistoryMadeira.txt
+./HistoryMadrid.txt
+./HistoryMalaysia.txt
+./HistoryMallorca.txt
+```
+
+Sources
+* ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)
 
 ### `-delete`
 
-Explanation
+`delete` deletes files *permanently*. Recommended to use find without `-delete` first to check which files are going to be deleted. `STOPPED HERE: tired`
 
 Example 1
-```$ find -option3 command
+```
+$ find -option4 command
 output
 ```
 
 Example 2
-```$ find -option3 command
+```
+$ find -option4 command
 output
 ```
 
-Source: [link3]()
-
-### `-exec`
-
-Explanation
-
-Example 1
-```$ find -option4 command
-output
-```
-
-Example 2
-```$ find -option4 command
-output
-```
-
-Source: [link4]()
+Sources
+* ["Bash's find command" by math2001](https://math2001.github.io/article/bashs-find-command/)

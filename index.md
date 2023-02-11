@@ -5,8 +5,5 @@ This page documents my bi-weekly lab reports for my CSE 15L Winter 2023 course i
 ## Table of Contents
 * [Week 1 Lab Report](https://sbalatbat.github.io/cse15l-lab-reports/Lab_Report_1.html)
 * [Week 3 Lab Report](https://sbalatbat.github.io/cse15l-lab-reports/Lab_Report_2.html)
-* Week 5 Lab Report
-* Week 7 Lab Report
-
-
-*Links to be added.*
+* [Week 5 Lab Report](https://sbalatbat.github.io/cse15l-lab-reports/Lab_Report_3.html)
+* [Week 7 Lab Report](https://sbalatbat.github.io/cse15l-lab-reports/Lab_Report_4.html)
