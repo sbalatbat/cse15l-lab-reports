@@ -73,7 +73,7 @@ Relevant method arguments and class fields:
    * `output`: `""`
 
 Class field changes:
-* `output`: "" -> "\nHello" - Hello was concatenated to the original value of `output`, which was an empty string ""
+* `output`: `""` -> `"\nHello"` - `"\nHello"` was concatenated to the original value of `output`, which was an empty string ""
 
 ## Request 2: /add-message?s= World!
 
@@ -91,7 +91,7 @@ Relevant method arguments and class fields:
 * _Method Arguments_
    * `handleRequest(URI url)`: "http://localhost:2048/add-message?s= World!"
 * _Class Fields_
-   * `output`: `"Hello"`
+   * `output`: `"\nHello"`
 
 Class field changes:
 * `output`: `"\nHello"` -> `"\nHello\n World!"` - `"\n World!"` was concatenated to the previous value of output, wich was `"\nHello"` from the last handled request
