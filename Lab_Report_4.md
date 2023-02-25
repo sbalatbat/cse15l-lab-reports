@@ -20,7 +20,9 @@ I typed in  ssh to log into the server and typed the first couple characters of 
 *Keys pressed:*
 
 `<ctrl><c>`
+
 git clone `<ctrl><v>` `<enter>`
+
 ls `<enter>`
 
 
@@ -35,11 +37,17 @@ I copied the ssh link of the fork using `<ctrl><c>`. Then I typed in git clone f
 *Keys pressed:*
 
 cd l`<tab>` `<enter>`
+
 ls `<enter>`
+
 `<ctrl><c>`
+
 `<ctrl><v>` `enter`
+
 ls `<enter>`
+
 `<ctrl><c>`
+
 `<ctrl><v>` `<space>` L`<tab>`T`<tab>` `<backspace>` `<enter>`
 
 
@@ -55,9 +63,13 @@ Using cd, I went into the lab7 directory that I just made. I pressed `<tab>` aft
 *Keys pressed:*
 
 nano L`<tab>`.j`<tab>` `<enter>`
+
 `<ctrl><w>` index1 `<enter>`
+
 `<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<right>``<right>``<right>``<right>``<backspace>` 2
+
 `<ctrl><o>``<enter>`
+
 `<ctrl><x>`
 
 
@@ -72,6 +84,7 @@ The command nano opens the nano text editor which takes over the terminal. I typ
 *Keys pressed:*
 
 `<up>``<up>``<up>``<up>``<enter>`
+
 `<up>``<up>``<up>``<enter>`
 
 
@@ -86,7 +99,9 @@ I pressed `<up>` 4 times because the JUnit compile command is 4 up in my history
 *Keys pressed:*
 
 git add L`<tab>`.j`<tab>` `<enter>`
+
 git status `<enter>`
+
 git commit -m "Updated ListExamples.java" `<enter>`
 
 
