@@ -12,6 +12,7 @@
 
 
 *Command & Key Press Summary:*
+
 I typed in  ssh to log into the server and typed the first couple characters of my ieng6 account username, then pressed `<tab>` for autocomplete, and `<enter>` to log in. Since I already have the ssh key, I don't need to type in my password.
 
 ### Clone your fork of the repository from your GitHub account
