@@ -1,4 +1,4 @@
-# Week 2 & 3 Lab Report
+# Lab Report 2: Week 2 & 3
 
 ## Part 1: String Server
 

@@ -1,4 +1,4 @@
-# Week 6 and 7 Lab Report
+# Lab Report 4: Week 6 & 7
 
 ## CSE Labs "Done Quick"
 

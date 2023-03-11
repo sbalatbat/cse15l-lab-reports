@@ -1,4 +1,4 @@
-# Week 1 Lab Report
+# Lab Report 1: Week 1
 
 ## How to Log Into a Course-Specific Account on `ieng6`
 This tutorial is done on Windows so there may be minor differences, such as keyboard shortcuts and visuals.

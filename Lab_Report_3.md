@@ -1,4 +1,4 @@
-# Week 4 & 5 Lab Report
+# Lab Report 3: Week 4 & 5 
 
 ## Researching Commands: `find`
 
