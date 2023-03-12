@@ -4,19 +4,37 @@
 ## Researching Commands: `grep`
 
 **What does `grep` do?**
-`grep` *TO EDIT*
-
-*SOURCE TO USE WHILE EDITING: https://www.gnu.org/software/grep/manual/grep.html*wc --help
+`grep` searches input files for matches to the given pattern(s). It copies the line containing a match into standard output by default, or produces other output based on specified options.
 
 __Command-line options__
-* `Option 1`
-* `Option 2`
-* `Option 3`
-* `Option 4`
+* `-e`
+* `-n`
+* `--color`
+* `-r`
 
-### `Option 1`
+### `-e`
 
-`Option 1` *TO EDIT*
+`-e` is the flag for the pattern that the user wants to match again. Using `-e` before every pattern that the user wants to use allows for `grep` to search for all patterns given. This is useful for searching for multiple strings at once.
+
+Example 1
+```
+$ # working directory TO EDIT
+$ 
+```
+
+Example 2
+```
+$ # TO EDIT
+```
+
+Sources
+* [`grep` Manual Page](https://www.gnu.org/software/grep/manual/grep.html)
+* [`-e` vs `-E`](https://unix.stackexchange.com/a/50514)
+* [`grep -e` allows for several strings for searching](https://unix.stackexchange.com/a/74812)
+
+### `-n`
+
+`-n` *TO EDIT*
 
 Example 1
 ```
@@ -31,26 +49,9 @@ $ # TO EDIT
 Sources
 *
 
-### `Option 2`
+### `--color`
 
-`Option 2` *TO EDIT*
-
-Example 1
-```
-$ # TO EDIT
-```
-
-Example 2
-```
-$ # TO EDIT
-```
-
-Sources
-*
-
-### `Option 3`
-
-`Option 3` *TO EDIT*
+`--color` *TO EDIT*
 
 Example 1
 ```
@@ -65,9 +66,9 @@ $ # TO EDIT
 Sources
 *
 
-### `Option 4`
+### `-r`
 
-`Option 4` *TO EDIT*
+`-r` *TO EDIT*
 
 Example 1
 ```
