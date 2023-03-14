@@ -14,7 +14,7 @@ __Command-line options__
 
 ### `-e`
 
-`-e` is the flag for the pattern that the user wants to match again. Using `-e` before every pattern that the user wants to search for allows for `grep` to search for multiple patterns. This is useful for searching for multiple strings at once, which may be applied in situations like looking for keywords in an applicant's resumé.
+`-e` is the flag for the pattern that the user wants to match against. Using `-e` before every pattern that the user wants to search for allows for `grep` to search for multiple patterns. This is useful for searching for multiple strings at once, which may be applied in situations like looking for keywords in an applicant's resumé.
 
 Example 1
 ```
@@ -46,7 +46,7 @@ in the years immediately following the war, returning soldiers, the end of ratio
 supply.
 When it comes to international trade agreements, the conventional wisdom sounds most bleak. It leads to stark conclusions about the long-term viability of the U.S. apparel industry, even with steps taken to improve assembly-room productivity and fashion-oriented quick response. The following comment is typical:
 ```
-In example 2, `-e` is used to flag 2 patterns in a very lengthy text. `grep` searches for both of these patterns and outputs the following, which is unbelievably long for being only two lines, but the usefulness here is that the 2nd pattern is a phrase rather than just one word, which lets the user be more specific in their searches combined with multiple patterns.
+In example 2, `-e` is used to flag 2 patterns being searched for in a very lengthy text. `grep` searches for both of these patterns and outputs the above example, which is unbelievably long for being only two lines, but the usefulness here is that the 2nd pattern is a phrase rather than just one word, which lets the user be more specific in their searches combined with multiple patterns.
 
 Sources
 * [`grep` Manual Page](https://www.gnu.org/software/grep/manual/grep.html)
@@ -66,7 +66,7 @@ $ grep -n -e "1940s" -e "trade agreements" ch1.txt
 61:When it comes to international trade agreements, the conventional wisdom sounds most bleak. It leads to stark conclusions about the long-term viability of the U.S. apparel industry, even with steps taken to improve assembly-room productivity and fashion-oriented quick response. 
 The following comment is typical:
 ```
-In example 1, `-e`'s example 2 is executed again, but with line numbers in the output this time. Using `-n` makes it easier to see that there are only 2 results, and where we can find them in the document.
+In example 1, `-e`'s example 2 is executed again, but with line numbers in the output this time. Using `-n` makes it easier to see that there are 2 results, and where we can find them in the document.
 
 Example 2
 ```
@@ -78,7 +78,7 @@ Brown in Providence, a prominent merchant who had established a company, Almy an
 and management also followed British lines—one partner financed the venture, while the other furnished the technical know-how. For these accomplishments, Samuel Slater has been called “the father of American manufactures.” His story underscores the international role of textiles and apparel, their impetus in national economic development, and their place in conflicts over domestic production and imports—a theme that recurs throughout U.S. history. For example, from the outset of the new nation, President George Washington and his Secretary of the Treasury Alexander Hamilton wanted to encourage U.S.-based industry. Indeed, Washington wore a dark brown suit, entirely made in America, for his first 
 inaugural on April 30, 1789.3
 ```
-In example 2, using `-n` with this search again puts the line number before the matching lines. Again, makes it easier to figure out where they are within the document.
+In example 2, using `-n` with this search puts the line number before the matching lines just as before. Again, this makes it easier to figure out where they are within the document.
 
 Sources
 * [`grep` Manual page](https://www.gnu.org/software/grep/manual/grep.html)
