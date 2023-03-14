@@ -138,11 +138,3 @@ Example 2 shows `grep` recursively searching through `travel_guides` which has 2
 Sources
 * [`grep` Manual page](https://www.gnu.org/software/grep/manual/grep.html)
 * [Grep Command in Linux Explained with Practical Examples](https://www.computernetworkingnotes.com/linux-tutorials/grep-command-in-linux-explained-with-practical-examples.html#:~:text=The%20grep%20command%20supports%20recursive,files%20of%20the%20specified%20directory.)
-
-```
-$ grep --color "Manitoba Act" travel_guides/
-travel_guides/berlitz2/Canada-History.txt:Only the promise of a transcontinental railway brought Nova Scotia immediately into the Confederation, with British Columbia joining in 1871, and Prince Edward Island in 1873. Rupert’s Land was bought from the H.B.C. in 1869, but incorporating Manitoba was not so easy. Led by Louis Riel, Métis descendants of Indians and French fur traders waged an armed struggle for land rights 
-on the Red River in the face of the expansion-hungry railway builders. An impassioned politician as well as a fiery military leader, Riel won local Anglo-Saxon support for his proposed Manitoba Act guaranteeing equal French and English language rights in school and church. But the 
-execution of a troublemaker from Toronto brought in a retaliatory force of Ontario troops, and Riel fled to the United States. The Métis were driven off their fertile land and back to hunting on the plains.
-```
-**RESEARCH**
